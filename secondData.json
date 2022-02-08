@@ -1,0 +1,12 @@
+{
+    "id": "4307",
+    "parent_exercise_id": null,
+    "name": "pickledb",
+    "slug": "meradb__pickledb_md",
+    "sequence_num": 100,
+    "review_type": "manual",
+    "solution": null,
+    "content": "[\"{\\\"type\\\":\\\"markdown\\\",\\\"value\\\":\\\"pickledb_key1\\\\npickledb_key2\\\\n\\\\n\\\\npickledb_key3[pickledb_key4](https://pythonhosted.org/pickleDB/)\\\\npickledb_key5\\\\n\\\\n```bash\\\\n>>> import pickledb\\\\n\\\\n>>> db = pickledb.load('example.db', False)\\\\n\\\\n>>> db.set('key', 'value')\\\\nTrue\\\\n\\\\n>>> db.get('key')\\\\n'value'\\\\n\\\\n>>> db.dump()\\\\nTrue\\\\n```\\\\npickledb_key6\\\\n\\\\n\\\\n```bash\\\\n# For Python 2.7\\\\nsudo apt install python-pip\\\\npip install pickledb\\\\n\\\\n# For Python 3.0+\\\\nsudo apt install python3-pip\\\\npip3 install pickledb\\\\n```\\\\npickledb_key7\\\\n\\\"}\"]",
+    "submission_type": null,
+    "github_link": "https://github.com/navgurukul/newton/tree/master/meradb/pickledb.md"
+}
